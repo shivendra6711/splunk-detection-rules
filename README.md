@@ -1,7 +1,7 @@
 # splunk-detection-rules
 
 
-Sample Splunk detections created for SOC monitoring practice.
+Collection of Splunk SPL detection queries focused on SOC monitoring, threat hunting, and incident investigation.
 
 ## Included Rules
 
@@ -19,6 +19,10 @@ Sample Splunk detections created for SOC monitoring practice.
 | PowerShell Abuse | T1059.001 |
 | Obfuscated Commands | T1027 |
 | Beaconing | T1071 |
+| Impossible Travel Login | T1078 |
+| Credential Dumping Detection | T1003 |
+| DNS Tunneling Detection | T1071.004 |
+| USB Device Detection | T1091 |
 
 ## Notes
 
