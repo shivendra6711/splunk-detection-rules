@@ -1,0 +1,3 @@
+index=authentication action=success
+| stats earliest(_time) as first latest(_time) as last values(country) as countries by user
+| where mvcount(countries) > 1 AND (last-first) < 3600
