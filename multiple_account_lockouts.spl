@@ -1,0 +1,3 @@
+index=wineventlog EventCode=4740
+| stats count by user
+| where count > 3
