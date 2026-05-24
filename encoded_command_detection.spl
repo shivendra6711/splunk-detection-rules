@@ -1,0 +1,3 @@
+index=sysmon EventCode=1
+| search CommandLine="*-EncodedCommand*"
+| table _time host user CommandLine
