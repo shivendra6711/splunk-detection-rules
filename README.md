@@ -22,6 +22,5 @@ Sample Splunk detections created for SOC monitoring practice.
 
 ## Notes
 
-- Sanitized detections
-- No client data
-- Educational use only
+- Detection rules are created for learning and portfolio purposes.
+- No sensitive or production data included.
