@@ -1,0 +1,4 @@
+index=dns
+| eval query_length=len(query)
+| where query_length > 50
+| table _time src_ip query
