@@ -1,0 +1,3 @@
+index=sysmon EventCode=1 Image="*powershell.exe"
+| search CommandLine="*-enc*" OR CommandLine="*bypass*"
+| table _time host user CommandLine
